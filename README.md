@@ -3,14 +3,14 @@
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/99ea1c90-e987-4cb5-b2b4-fe97a4c5e3c1)
 
-## output :
+## OUTPUT :
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/c49bc2e5-f308-4a22-8d0b-173b35f1763e)
 
 ## 2. Menambahkan Judul
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/c528c7cc-7352-4421-a117-00f8fba5d227)
 
-## output :
+## OUTPUT :
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/019e12ab-a521-4078-a331-71de15a0394d)
 
@@ -18,7 +18,7 @@
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/153b267a-0914-4163-880b-0a9e3e515d2e)
 
-## output :
+## OUTPUT :
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/ba1b6fc3-4701-4f80-8509-c05eb30da593)
 
@@ -26,7 +26,7 @@
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/9b06dbfb-ee6c-4120-9384-cd415e3df353)
 
-## output :
+## OUTPUT :
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/523b1876-a58b-428e-b3df-242a69324e9a)
 
@@ -38,7 +38,7 @@
 
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/655dd687-2810-4295-921e-587ca457ef4e)
 
-## Jawab Pertanyaan :
+## Jawab Pertanyaan 
 ## 1. Apa perbedaan dari tag ``` <p> ``` dengan tag ``` <br> ```, berikan penjelasannya!
 
 Tag HTML ``` <p> ``` dan ``` <br> ``` memiliki perbedaan yang signifikan dalam cara mereka digunakan dan bagaimana mereka memformat teks di dalam halaman web. Berikut adalah penjelasan singkat tentang perbedaan antara keduanya:
@@ -62,6 +62,8 @@ Tag HTML ``` <p> ``` dan ``` <br> ``` memiliki perbedaan yang signifikan dalam c
       
 Jadi, intinya adalah tag ```<p>``` digunakan untuk membuat paragraf dengan jarak atas dan bawah yang konsisten secara default, sementara tag ```<br>``` hanya digunakan untuk memindahkan teks ke baris berikutnya tanpa memberikan jarak tambahan.
 
+----------------
+
 ## 2. Apa perbedaan atribut title dan alt pada tag ```<img>``` , berikan penjelasannya!
 
 Tag HTML ```<img>``` digunakan untuk menampilkan gambar di halaman web, dan atribut "title" dan "alt" adalah dua atribut yang digunakan untuk memberikan informasi tambahan tentang gambar tersebut. Berikut adalah penjelasan perbedaan antara kedua atribut tersebut:
@@ -84,6 +86,7 @@ Tag HTML ```<img>``` digunakan untuk menampilkan gambar di halaman web, dan atri
       
 Jadi, perbedaan utama antara atribut "alt" dan "title" adalah bahwa "alt" digunakan untuk memberikan teks alternatif yang penting untuk aksesibilitas, sedangkan "title" digunakan untuk memberikan informasi tambahan yang muncul saat mouse diarahkan ke gambar.
 
+--------------------
 ## 3. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
 
 Untuk mengatur ukuran gambar dalam HTML, Anda dapat menggunakan atribut "width" dan "height". Untuk menjaga tampilan gambar tetap proporsional, disarankan untuk mengisi salah satu dari kedua atribut tersebut dan membiarkan yang lainnya mengikuti secara otomatis. Ini akan menjaga rasio aspek gambar (proporsi tinggi dan lebar) sehingga tidak terdistorsi. Berikut penjelasan lebih rinci:
@@ -101,6 +104,7 @@ Untuk mengatur ukuran gambar dalam HTML, Anda dapat menggunakan atribut "width" 
 
 Jadi, untuk menjaga tampilan gambar proporsional, baik Anda mengisi atribut "width" atau "height," sementara atribut yang lainnya akan menyesuaikan secara otomatis. Ini akan memastikan bahwa gambar tetap terlihat baik dan tidak terdistorsi.
 
+------------------
 ## 4. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
 
 Atribut "target" digunakan dalam tag anchor ```(<a>)``` untuk mengontrol perilaku tautan (link) ketika pengguna mengkliknya. Berikut penjelasan tentang nilai-nilai yang mungkin digunakan dalam atribut "target" beserta perilaku yang terkait:
