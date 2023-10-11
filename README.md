@@ -1,6 +1,6 @@
-# Lab1Web
+# Langkah-langkah Praktikum
 ## 1. Membuat Paragraf
-
+- buatlah beberapa paragraf sederhana sebagai berikut
 ![image](https://github.com/verz666/Lab1Web/assets/115523263/99ea1c90-e987-4cb5-b2b4-fe97a4c5e3c1)
 
 ## OUTPUT :
