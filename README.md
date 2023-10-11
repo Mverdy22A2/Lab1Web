@@ -55,7 +55,7 @@ Tag HTML ``` <p> ``` dan ``` <br> ``` memiliki perbedaan yang signifikan dalam c
 2. ```<br>``` (Line Break Tag):
 
     - ```<br>``` digunakan untuk membuat baris baru di tengah teks tanpa memulai paragraf baru. Ini hanya memberikan pemisahan baris, bukan pemisahan paragraf.
-    - ```<br>``` tidak memberikan jarak atas dan bawah secara otomatis. Jika Anda ingin memberikan jarak antara dua baris yang dibuat dengan ```<br>```, Anda harus menggunakan CSS atau elemen HTML lainnya.
+    - ```<br>``` tidak memberikan jarak atas dan bawah secara otomatis. Jika Kita ingin memberikan jarak antara dua baris yang dibuat dengan ```<br>```, Anda harus menggunakan CSS atau elemen HTML lainnya.
     - Contoh penggunaan:
       ```html
       Ini adalah baris pertama.<br>Ini adalah baris kedua.
@@ -89,20 +89,20 @@ Jadi, perbedaan utama antara atribut "alt" dan "title" adalah bahwa "alt" diguna
 --------------------
 ## 3. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
 
-Untuk mengatur ukuran gambar dalam HTML, Anda dapat menggunakan atribut "width" dan "height". Untuk menjaga tampilan gambar tetap proporsional, disarankan untuk mengisi salah satu dari kedua atribut tersebut dan membiarkan yang lainnya mengikuti secara otomatis. Ini akan menjaga rasio aspek gambar (proporsi tinggi dan lebar) sehingga tidak terdistorsi. Berikut penjelasan lebih rinci:
+Untuk mengatur ukuran gambar dalam HTML, Kita dapat menggunakan atribut "width" dan "height". Untuk menjaga tampilan gambar tetap proporsional, disarankan untuk mengisi salah satu dari kedua atribut tersebut dan membiarkan yang lainnya mengikuti secara otomatis. Ini akan menjaga rasio aspek gambar (proporsi tinggi dan lebar) sehingga tidak terdistorsi. Berikut penjelasan lebih rinci:
 
 1. Mengisi Hanya Atribut "width" atau "height":
 
-    - Jika Anda hanya mengisi salah satu dari kedua atribut ini (misalnya, hanya "width" atau hanya "height"), gambar akan diubah ukurannya sesuai dengan atribut yang diisi, sementara atribut yang tidak diisi akan disesuaikan secara otomatis untuk menjaga rasio aspek gambar.
-    - Contoh 1: Jika Anda mengatur width="300" tanpa mengatur "height", gambar akan memiliki lebar 300 piksel, dan tingginya akan disesuaikan untuk menjaga proporsi aspek.
-    - Contoh 2: Jika Anda mengatur height="200" tanpa mengatur "width", gambar akan memiliki tinggi 200 piksel, dan lebarnya akan disesuaikan secara otomatis.
+    - Jika Kita hanya mengisi salah satu dari kedua atribut ini (misalnya, hanya "width" atau hanya "height"), gambar akan diubah ukurannya sesuai dengan atribut yang diisi, sementara atribut yang tidak diisi akan disesuaikan secara otomatis untuk menjaga rasio aspek gambar.
+    - Contoh 1: Jika Kita mengatur width="300" tanpa mengatur "height", gambar akan memiliki lebar 300 piksel, dan tingginya akan disesuaikan untuk menjaga proporsi aspek.
+    - Contoh 2: Jika Kita mengatur height="200" tanpa mengatur "width", gambar akan memiliki tinggi 200 piksel, dan lebarnya akan disesuaikan secara otomatis.
 
 2. Mengisi Kedua Atribut "width" dan "height":
 
-    - Jika Anda mengisi kedua atribut "width" dan "height" dengan angka tertentu, maka gambar akan dipaksakan memiliki dimensi yang sama persis sesuai dengan nilai yang Anda berikan, dan ini dapat mengakibatkan distorsi jika tidak sesuai dengan rasio aspek asli gambar. 
-    - Contoh: Jika Anda mengatur width="300" dan height="200", gambar akan dipaksa menjadi kotak dengan dimensi yang tidak proporsional, yang bisa menyebabkan gambar terlihat terdistorsi.
+    - Jika Kita mengisi kedua atribut "width" dan "height" dengan angka tertentu, maka gambar akan dipaksakan memiliki dimensi yang sama persis sesuai dengan nilai yang Kita berikan, dan ini dapat mengakibatkan distorsi jika tidak sesuai dengan rasio aspek asli gambar. 
+    - Contoh: Jika Kita mengatur width="300" dan height="200", gambar akan dipaksa menjadi kotak dengan dimensi yang tidak proporsional, yang bisa menyebabkan gambar terlihat terdistorsi.
 
-Jadi, untuk menjaga tampilan gambar proporsional, baik Anda mengisi atribut "width" atau "height," sementara atribut yang lainnya akan menyesuaikan secara otomatis. Ini akan memastikan bahwa gambar tetap terlihat baik dan tidak terdistorsi.
+Jadi, untuk menjaga tampilan gambar proporsional, baik kita mengisi atribut "width" atau "height," sementara atribut yang lainnya akan menyesuaikan secara otomatis. Ini akan memastikan bahwa gambar tetap terlihat baik dan tidak terdistorsi.
 
 ------------------
 ## 4. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
@@ -111,15 +111,15 @@ Atribut "target" digunakan dalam tag anchor ```(<a>)``` untuk mengontrol perilak
 
 1. _blank:
 
-    - Ketika Anda menggunakan "_blank" sebagai nilai atribut "target", tautan akan membuka halaman atau dokumen yang ditautkan dalam jendela atau tab browser yang baru. Ini akan membuat konten tautan yang diklik tetap di latar belakang, dan pengguna akan tetap berada di halaman asal.
-    - Ini berguna jika Anda ingin menjaga pengguna tetap di halaman asal sambil memungkinkan mereka mengakses tautan tambahan dalam jendela/tab yang baru.
+    - Ketika kita menggunakan "_blank" sebagai nilai atribut "target", tautan akan membuka halaman atau dokumen yang ditautkan dalam jendela atau tab browser yang baru. Ini akan membuat konten tautan yang diklik tetap di latar belakang, dan pengguna akan tetap berada di halaman asal.
+    - Ini berguna jika kita ingin menjaga pengguna tetap di halaman asal sambil memungkinkan mereka mengakses tautan tambahan dalam jendela/tab yang baru.
     - Contoh:
       ```html
       <a href="https://www.example.com" target="_blank">Kunjungi Example.com</a>
 
 2. _self:
 
-    - Ketika Anda menggunakan "_self" sebagai nilai atribut "target," tautan akan membuka halaman atau dokumen yang ditautkan di jendela atau tab yang sama tempat tautan tersebut berada. Ini adalah perilaku default jika "target" tidak ditentukan.
+    - Ketika Kita menggunakan "_self" sebagai nilai atribut "target," tautan akan membuka halaman atau dokumen yang ditautkan di jendela atau tab yang sama tempat tautan tersebut berada. Ini adalah perilaku default jika "target" tidak ditentukan.
     - Ini akan menggantikan konten halaman asal dengan konten tautan yang diklik.
     - Contoh:
       ```html
@@ -127,7 +127,7 @@ Atribut "target" digunakan dalam tag anchor ```(<a>)``` untuk mengontrol perilak
       
 3. _top:
 
-    - Ketika Anda menggunakan "_top" sebagai nilai atribut "target," tautan akan membuka halaman atau dokumen yang ditautkan di jendela atau tab paling atas dalam hierarki. Jika halaman tersebut tidak berada dalam iframe, maka ini akan memiliki perilaku yang sama dengan "_self."
+    - Ketika Kita menggunakan "_top" sebagai nilai atribut "target," tautan akan membuka halaman atau dokumen yang ditautkan di jendela atau tab paling atas dalam hierarki. Jika halaman tersebut tidak berada dalam iframe, maka ini akan memiliki perilaku yang sama dengan "_self."
     - Namun, jika halaman tersebut berada dalam iframe, "_top" akan mengarahkan ke halaman atas dalam tumpukan frame, menggantikan semua frame lainnya.
     - Contoh:
       ```html
@@ -135,9 +135,9 @@ Atribut "target" digunakan dalam tag anchor ```(<a>)``` untuk mengontrol perilak
 
 4. _parent:
 
-    - Ketika Anda menggunakan "_parent" sebagai nilai atribut "target," tautan akan membuka halaman atau dokumen yang ditautkan di frame induk dari frame saat ini, jika ada. Jika halaman tersebut tidak berada dalam iframe, maka ini akan memiliki perilaku yang sama dengan "_self."
+    - Ketika Kita menggunakan "_parent" sebagai nilai atribut "target," tautan akan membuka halaman atau dokumen yang ditautkan di frame induk dari frame saat ini, jika ada. Jika halaman tersebut tidak berada dalam iframe, maka ini akan memiliki perilaku yang sama dengan "_self."
     - Contoh:
       ```html
       <a href="https://www.example.com" target="_parent">Kunjungi Example.com</a>
 
-Perilaku atribut "target" ini digunakan untuk mengontrol bagaimana tautan akan memengaruhi tampilan dan navigasi pengguna di situs web Anda, tergantung pada kebutuhan desain dan interaksi.
+Perilaku atribut "target" ini digunakan untuk mengontrol bagaimana tautan akan memengaruhi tampilan dan navigasi pengguna di situs web Kita, tergantung pada kebutuhan desain dan interaksi.
